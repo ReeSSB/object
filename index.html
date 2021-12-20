@@ -2,129 +2,139 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Objects & its representation in Javascript</title>
-  <link rel="stylesheet" href="style.css" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Objects & its representation in Javascript</title>
+        <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <!-- Header Start -->
-  <div class="main">
-  <header class="header">Objects & its representation in Javascript</header>
-  <!-- Main Content Start -->
-  <span class="sub-head">Introduction</span>
-  <p class="text">
-    An object, in Object-Oriented Programming (OOP), is an abstract data
-    type created by a developer. It can include multiple properties and
-    methods and may even contain other objects. In most programming
-    languages, objects are defined as classes. In computer science, an
-    object can be a variable, a data structure, a function, or a method. As
-    regions of memory, they contain value and are referenced by identifiers.
-    In the object-oriented programming paradigm, object can be a combination
-    of variables, functions, and data structures; in particular in
-    class-based variations of the paradigm it refers to a particular
-    instance of a class. In the relational model of database management, an
-    object can be a table or column, or an association between data and a
-    database entity (such as relating a person's age to a specific person).
-  </p>
-  <span class="sub-head">It's Representation in Javascript</span>
-  <p class="text">
-    Objects, in JavaScript, is it’s most important data-type and forms the
-    building blocks for modern JavaScript. These objects are quite different
-    from JavaScript’s primitive data-types(Number, String, Boolean, null,
-    undefined and symbol) in the sense that while these primitive data-types
-    all store a single value each (depending on their types). Objects are
-    more complex and each object may contain any combination of these
-    primitive data-types as well as reference data-types. An object, is a
-    reference data type. Variables that are assigned a reference value are
-    given a reference or a pointer to that value. That reference or pointer
-    points to the location in memory where the object is stored. The
-    variables don’t actually store the value. Loosely speaking, objects in
-    JavaScript may be defined as an unordered collection of related data, of
-    primitive or reference types, in the form of “key: value” pairs. These
-    keys can be variables or functions and are called properties and
-    methods, respectively, in the context of an object. An object can be
-    created with figure brackets {…} with an optional list of properties. A
-    property is a “key: value” pair, where a key is a string (also called a
-    “property name”), and value can be anything.
-  </p>
-  <span class="sub-head">Objects and Properties</span>
-  <p class="text">
-    <div class="text">
-      <li>Creation — Creating a new object.</li>
-      <li>Addition — Adding properties to an object.</li>
-      <li>
-        Reading/Retrieving — Reading the value associated with a key.
-      </li>
-      <li>Existence — Whether a property exists in an object.</li>
-      <li>Updation — Updating the values of existing properties.</li>
-      <li>Deletion — Deleting existing properties.</li>
-      <li>
-        Iteration (Enumeration) — Looping over an object’s keys and values.
-      </li>
-      <li>Comparison — Comparing two different objects.</li>
-      <li>Copying — Making a copy of an existing object.</li>
-    </div>
-  </p>
-  <div class="text">
-    <span class="points">Creation</span>
-    <p class="text">
-      Properties of an object are just like variables. Lets see how can we create objects and properties —
-      Creating an object using “literal” notation.
+        <!-- Header Start -->
+        <div class="main">
+                <header class="header">Objects & its representation in Javascript</header>
+                <!-- Main Content Start -->
+                <span class="sub-head">Introduction</span>
+                <p class="text">
+                        An object, in Object-Oriented Programming (OOP), is an abstract data
+                        type created by a developer. It can include multiple properties and
+                        methods and may even contain other objects. In most programming
+                        languages, objects are defined as classes. In computer science, an
+                        object can be a variable, a data structure, a function, or a method. As
+                        regions of memory, they contain value and are referenced by identifiers.
+                        In the object-oriented programming paradigm, object can be a combination
+                        of variables, functions, and data structures; in particular in
+                        class-based variations of the paradigm it refers to a particular
+                        instance of a class. In the relational model of database management, an
+                        object can be a table or column, or an association between data and a
+                        database entity (such as relating a person's age to a specific person).
+                </p>
+                <span class="sub-head">It's Representation in Javascript</span>
+                <p class="text">
+                        Objects, in JavaScript, is it’s most important data-type and forms the
+                        building blocks for modern JavaScript. These objects are quite different
+                        from JavaScript’s primitive data-types(Number, String, Boolean, null,
+                        undefined and symbol) in the sense that while these primitive data-types
+                        all store a single value each (depending on their types). Objects are
+                        more complex and each object may contain any combination of these
+                        primitive data-types as well as reference data-types. An object, is a
+                        reference data type. Variables that are assigned a reference value are
+                        given a reference or a pointer to that value. That reference or pointer
+                        points to the location in memory where the object is stored. The
+                        variables don’t actually store the value. Loosely speaking, objects in
+                        JavaScript may be defined as an unordered collection of related data, of
+                        primitive or reference types, in the form of “key: value” pairs. These
+                        keys can be variables or functions and are called properties and
+                        methods, respectively, in the context of an object. An object can be
+                        created with figure brackets {…} with an optional list of properties. A
+                        property is a “key: value” pair, where a key is a string (also called a
+                        “property name”), and value can be anything.
+                </p>
+                <span class="sub-head">Objects and Properties</span>
+                <p class="text">
+                <div class="text">
+                        <li>Creation — Creating a new object.</li>
+                        <li>Addition — Adding properties to an object.</li>
+                        <li>
+                                Reading/Retrieving — Reading the value associated with a key.
+                        </li>
+                        <li>Existence — Whether a property exists in an object.</li>
+                        <li>Updation — Updating the values of existing properties.</li>
+                        <li>Deletion — Deleting existing properties.</li>
+                        <li>
+                                Iteration (Enumeration) — Looping over an object’s keys and values.
+                        </li>
+                        <li>Comparison — Comparing two different objects.</li>
+                        <li>Copying — Making a copy of an existing object.</li>
+                </div>
+                </p>
+                <div class="text">
+                        <span class="points">Creation</span>
+                        <p class="text">
+                                Properties of an object are just like variables. Lets see how can we create objects and
+                                properties —
+                                Creating an object using “literal” notation.
 
-      A literal is a notation for representing a fixed value in source code. For example, 5 or "foo". They literally
-      represent the value. An object is represented as —
+                                A literal is a notation for representing a fixed value in source code. For example, 5 or
+                                "foo". They literally
+                                represent the value. An object is represented as —
 
-      const obj = { }; // Creating an object using literal notation
+                                const obj = { }; // Creating an object using literal notation
 
-      The curly braces { } create a new object.
+                                The curly braces { } create a new object.
 
-      You can also specify properties to be inserted at the time of creation.
-      <pre class="text">
+                                You can also specify properties to be inserted at the time of creation.
+                        <pre class="text">
       const obj = {
         firstName: 'Alex',
         'lastName': 'Martin', // Using string quotes
         dateOfBirth: '18th October',
         friends: [ 'Bob', 'Christine' ]
       };</pre>
-      <p class="text">
-        The property names are treated as strings. That is, firstName and 'firstName' are same. An object property name
-        can be any valid JavaScript string, or anything that can be converted to a string, including the empty string.
-      </p>
-      <blockquote class="text">Note that the values can be any value type. That is, both primitive types and an object
-        can be used as values.</blockquote>
+                        <p class="text">
+                                The property names are treated as strings. That is, firstName and 'firstName' are same.
+                                An object property name can be any valid JavaScript string, or anything that can be converted to a string,
+                                including the empty string.
+                        </p>
+                        <blockquote class="text">Note that the values can be any value type. That is, both primitive
+                                types and an object
+                                can be used as values.</blockquote>
 
-      <pre class="text">
+                        <pre class="text">
       const obj = {
         nestedObj: {
             name: 'Alex'
         }
       }</pre>
-      <p class="text">
-        The nestedObj is a key that holds another object. The nesting can be arbitrary and cyclic too!
-        Creating objects using Object constructor.</p>
-      <pre class="text">const obj = new Object();</pre>
-      <br>
-      <p class="text">You can also use an expression that will be evaluated to a string using the new computed property
-        syntax. As an
-        example —</p>
-      <pre class="text">
+                        <p class="text">
+                                The nestedObj is a key that holds another object. The nesting can be arbitrary and
+                                cyclic too!
+                                Creating objects using Object constructor.</p>
+                        <pre class="text">const obj = new Object();</pre>
+                        <br>
+                        <p class="text">You can also use an expression that will be evaluated to a string using the new
+                                computed property
+                                syntax. As an
+                                example —</p>
+                        <pre class="text">
       const propertyName = 'firstName';
       const obj = {
         [propertyName.toUpperCase()]: 'Alex',
       }// { FIRSTNAME: 'Alex' }</pre>
-      <blockquote class="text">
-        Note the variable propertyName. In obj, we wrap the expression propertyName.toUpperCase() in [ ] to make it a
-        computed property. As expected, in the resulting output, the stringfirstName is turned into uppercase.
-      </blockquote>
-      <p class="text">
-        Function as key values<br>
-        In an object, when we have a function as a value to a key, then the function is called a method. This is one of
-        the most important features of objects. The methods have access to the key-value pairs of the object. They can
-        specify behavior in an object.</p>
-      <pre class="text">
+                        <blockquote class="text">
+                                Note the variable propertyName. In obj, we wrap the expression
+                                propertyName.toUpperCase() in [ ] to make it a
+                                computed property. As expected, in the resulting output, the stringfirstName is turned
+                                into uppercase.
+                        </blockquote>
+                        <p class="text">
+                                Function as key values<br>
+                                In an object, when we have a function as a value to a key, then the function is called a
+                                method. This is one of
+                                the most important features of objects. The methods have access to the key-value pairs
+                                of the object. They can
+                                specify behavior in an object.</p>
+                        <pre class="text">
       const obj1 = {
         firstName: 'ALEX',
         lastName: 'MARTIN',
@@ -133,58 +143,74 @@
         }
       };obj1.printFullName();
       //=> 'ALEX MARTIN'</pre>
-      <p class="text">
-        We add printFullName method on obj1. The method has access to the properties of the object using the this
-        keyword.
-        We return the full name formatted using template literals. In this case, the behavior is to print the full name.
-      </p>
-    </p>
-    <span class="sub-head">Addition</span>
-    <p class="text">
-      After we have created our object, we can add properties to it. There are two distinct ways of adding properties —
-      Dot Notation
-      <pre class="text">
+                        <p class="text">
+                                We add printFullName method on obj1. The method has access to the properties of the
+                                object using the this
+                                keyword.
+                                We return the full name formatted using template literals. In this case, the behavior is
+                                to print the full name.
+                        </p>
+                        </p>
+                        <span class="sub-head">Addition</span>
+                        <p class="text">
+                                After we have created our object, we can add properties to it. There are two distinct
+                                ways of adding properties —
+                                Dot Notation
+                        <pre class="text">
 obj.address = 'Earth';</pre>
-      <p class="text">
-        The object and the property name is separated by a . (dot). If a property with the same name exists, its value
-        will be overwritten. Otherwise, a new property with property name address will be added to the object.
+                        <p class="text">
+                                The object and the property name is separated by a . (dot). If a property with the same
+                                name exists, its value
+                                will be overwritten. Otherwise, a new property with property name address will be added
+                                to the object.
 
-        An object can only contain a single key with one value. We can’t have a single key having two different values.
-      </p>
+                                An object can only contain a single key with one value. We can’t have a single key
+                                having two different values.
+                        </p>
 
-      <blockquote class="text"> Using the dot-notation, you can’t use property names that are numbers, or string that
-        contain spaces, or special character, or dynamic properties. For example, these will throw a SyntaxError.
-      </blockquote>
-      <pre class="text">
-obj.5 = 'five'; // Using numbers as property names
-obj.first name = 'alex' // Using spaces between property names
-obj.first-name = 'alex' // Using special characters -
+                        <blockquote class="text"> Using the dot-notation, you can’t use property names that are numbers,
+                                or string that
+                                contain spaces, or special character, or dynamic properties. For example, these will
+                                throw a SyntaxError.
+                        </blockquote>
+                        <pre class="text">
+obj.5 = 'five'; 
+// Using numbers as property names
+obj.first name = 'alex' 
+// Using spaces between property names
+obj.first-name = 'alex' 
+// Using special characters -
 </pre>
 
-      <span class="text">Bracket Notation
-      </span>
-      <p class="text">
-        If you don’t want to be limited by the above caveats, you may consider using bracket notation.
-        <pre class="text">
+                        <span class="text">Bracket Notation
+                        </span>
+                        <p class="text">
+                                If you don’t want to be limited by the above caveats, you may consider using bracket
+                                notation.
+                        <pre class="text">
 obj["address"] = 'Earth' // Note the quotes </pre>
-        <p class="text">
-          Here we are adding address property to the obj object.
+                        <p class="text">
+                                Here we are adding address property to the obj object.
 
-          A few things to note —
+                                A few things to note —
 
-          The part between the brackets is an expression. That means we can use variables there. See the example below.
-          The type of properties can be either astring or asymbol. If the property is an expression, it will be
-          evaluated.
-          If the property is of any other type, it will be coerced to a string value.</p>
-        <pre class="text">
+                                The part between the brackets is an expression. That means we can use variables there.
+                                See the example below.
+                                The type of properties can be either astring or asymbol. If the property is an
+                                expression, it will be
+                                evaluated.
+                                If the property is of any other type, it will be coerced to a string value.</p>
+                        <pre class="text">
 const propName = 'address';
 obj[propName]  = 'Earth' // No string quotes</pre>
-        <p class="text">
-          Executing obj.propName adds a property propName whereas obj[propName] adds a property after evaluating the
-          variable propName. The content of propName is address, so a property address with the value Earth is added to
-          obj.
-        </p>
-        <pre class="text">
+                        <p class="text">
+                                Executing obj.propName adds a property propName whereas obj[propName] adds a property
+                                after evaluating the
+                                variable propName. The content of propName is address, so a property address with the
+                                value Earth is added to
+                                obj.
+                        </p>
+                        <pre class="text">
 Also, these are now valid —
 
 obj[5] = 'five'; // 5 is coerced to a string to make '5'
@@ -192,144 +218,183 @@ obj['first name'] = 'alex'; // property as string
 obj['first-name'] = 'alex'; // property as string</pre>
 
 
-      </p>
-      <span class="sub-head">Reading/Retrieving</span>
-      <br class="text">
-      <blockquote class="text">
-        Retrieving a property is by far the most complex to understand in JavaScript.
-        Let’s see some simple examples —</blockquote>
-      <pre class="text">
+                        </p>
+                        <span class="sub-head">Reading/Retrieving</span>
+                        <br class="text">
+                        <blockquote class="text">
+                                Retrieving a property is by far the most complex to understand in JavaScript.
+                                Let’s see some simple examples —</blockquote>
+                        <pre class="text">
 obj.address         // => 'Earth'
 obj['firstName']    // => 'Alex'
 obj['middleName']   // => undefined</pre>
-      <p class="text">
-        Like addition, we can use the dot-notation or bracket notation get the value of a property. If the property
-        exists, we get its value. If the property does not exist, we get undefined. Simple!</p>
-      <p class="text">
-        A Primer on Prototypes<br>
+                        <p class="text">
+                                Like addition, we can use the dot-notation or bracket notation get the value of a
+                                property. If the property
+                                exists, we get its value. If the property does not exist, we get undefined. Simple!</p>
+                        <p class="text">
+                                A Primer on Prototypes<br>
 
-        Objects are not just containers of key-value pairs. They have one more very interesting property. They can have
-        a
-        parent. That is, they store a link to another object. This parent object is also consulted when a property is
-        read.
+                                Objects are not just containers of key-value pairs. They have one more very interesting
+                                property. They can have
+                                a
+                                parent. That is, they store a link to another object. This parent object is also
+                                consulted when a property is
+                                read.
 
-        And not just that. That parent can also have a parent. And that grandparent object is consulted too when a
-        property is read. This repeats until we reach an object that does not have any parent i.e the parent is
-        null.<br>
+                                And not just that. That parent can also have a parent. And that grandparent object is
+                                consulted too when a
+                                property is read. This repeats until we reach an object that does not have any parent
+                                i.e the parent is
+                                null.<br>
 
-        Here’s the rough algorithm used when we retrieve a property —
+                                Here’s the rough algorithm used when we retrieve a property —
 
-        Goal: Read middleName from the object obj. (Note that middleName does not exist in obj )<br></p>
-      <pre class="text">
+                                Goal: Read middleName from the object obj. (Note that middleName does not exist in obj
+                                )<br></p>
+                        <pre class="text">
 (Rough) Algorithm —
 
-    Let CurrentObject = obj. Let CurrentKeyName = middleName.
-    If CurrentObject has CurrentKeyName, return associated value.
-    Else, let CurrentObject = parent of CurrentObject.
-    Check for CurrentKeyName again in CurrentObject. If found, return value.
-    If CurrentObject has no parent and does not have CurrentKeyName, return undefined.</pre>
-      <p class="text">
-        In the last step, CurrentObject would contain the final parent-less object. By this time, we have checked every
-        object in the chain and none of them have the property that we are looking for. If the property is found at any
-        level, its value is returned.<br>
+    Let CurrentObject = obj. 
+    Let CurrentKeyName = middleName.
+    If CurrentObject has CurrentKeyName, 
+    return associated value.
+    Else, 
+    let CurrentObject = parent of CurrentObject.
+    Check for CurrentKeyName again in CurrentObject. 
+    If found, return value.
+    If CurrentObject has no parent and
+     does not have CurrentKeyName, 
+     return undefined.</pre>
+                        <p class="text">
+                                In the last step, CurrentObject would contain the final parent-less object. By this
+                                time, we have checked every
+                                object in the chain and none of them have the property that we are looking for. If the
+                                property is found at any
+                                level, its value is returned.<br>
 
-        This chain is called the “prototype” chain. By default, all objects have their parent as Object.prototype. There
-        is no parent to Object.prototype. That’s where the chain ends, normally. Here’s a representation of it —<br>
+                                This chain is called the “prototype” chain. By default, all objects have their parent as
+                                Object.prototype. There
+                                is no parent to Object.prototype. That’s where the chain ends, normally. Here’s a
+                                representation of it —<br>
 
-        The [[Prototype]] property keeps this reference to the parent object. It’s an internal property which means that
-        we can’t access it directly. We can use Object.getPrototypeOf function to get the parent (aka “prototype”) of an
-        object.<br>
+                                The [[Prototype]] property keeps this reference to the parent object. It’s an internal
+                                property which means that
+                                we can’t access it directly. We can use Object.getPrototypeOf function to get the parent
+                                (aka “prototype”) of an
+                                object.<br>
 
-        An important point to note is that the prototype chain is consulted only while reading a value. It does not
-        affect
-        addition, updating or deletion of properties on parent objects. One way to look at this is — You have read-only
-        access to all things your parent (and their parents) have. <br>
-        Undefined<br>
+                                An important point to note is that the prototype chain is consulted only while reading a
+                                value. It does not
+                                affect
+                                addition, updating or deletion of properties on parent objects. One way to look at this
+                                is — You have read-only
+                                access to all things your parent (and their parents) have. <br>
+                                Undefined<br>
 
-        If the property does not exist in an object(or its parents), we get undefined. What happens when we
-        intentionally
-        set a property’s value to undefined?</p>
-      <pre class="text">
+                                If the property does not exist in an object(or its parents), we get undefined. What
+                                happens when we
+                                intentionally
+                                set a property’s value to undefined?</p>
+                        <pre class="text">
 obj.firstName = undefined;</pre>
-      <p class="text">
-        In this case, we have the property but its value is purposely not defined. When we retrieve the value, we’ll get
-        undefined. But how can we be sure that its value in intentionally undefined or the property does not exist on
-        the
-        object?<br>
+                        <p class="text">
+                                In this case, we have the property but its value is purposely not defined. When we
+                                retrieve the value, we’ll get
+                                undefined. But how can we be sure that its value in intentionally undefined or the
+                                property does not exist on
+                                the
+                                object?<br>
 
-        To ascertain that we need to show the existence of a property. Keep reading!</p>
-    </p>
-    <span class="sub-head">Existence</span>
-    <p class="text">
-      <p class="text">
-        Sometimes we don’t care what value a property has. We only want to know whether the given object has the given
-        property or not. There are 2 ways to know that —</p>
-      <pre class="text">in operator
+                                To ascertain that we need to show the existence of a property. Keep reading!</p>
+                        </p>
+                        <span class="sub-head">Existence</span>
+                        <p class="text">
+                        <p class="text">
+                                Sometimes we don’t care what value a property has. We only want to know whether the
+                                given object has the given
+                                property or not. There are 2 ways to know that —</p>
+                        <pre class="text">in operator
 
 'firstName' in obj;       // => true
 'middleName' in obj;      // => false 
 'isPrototypeOf' in obj;   // => true</pre>
-      <p class="text">
-        The syntax is String (or Symbol) in object. It will evaluate to true or false depending on whether the property
-        exists.<br>
+                        <p class="text">
+                                The syntax is String (or Symbol) in object. It will evaluate to true or false depending
+                                on whether the property
+                                exists.<br>
 
-        Attentive readers may be surprised to see the last example ( 'isPrototypeOf' in obj ) evaluate to true. This is
-        the gotcha of in operator.<br>
+                                Attentive readers may be surprised to see the last example ( 'isPrototypeOf' in obj )
+                                evaluate to true. This is
+                                the gotcha of in operator.<br>
 
-        isPrototypeOf is a property of the parent of obj. Just like Reading a property, the entire prototype chain is
-        consulted before true or false is returned. If the property is found at any level, true is returned.<br>
+                                isPrototypeOf is a property of the parent of obj. Just like Reading a property, the
+                                entire prototype chain is
+                                consulted before true or false is returned. If the property is found at any level, true
+                                is returned.<br>
 
-        What if we want our own properties? Properties that exist only on the current object in question irrespective of
-        whether that same property exists on parents or not.</p>
-      <p class="text">
-        hasOwnProperty<br>
+                                What if we want our own properties? Properties that exist only on the current object in
+                                question irrespective of
+                                whether that same property exists on parents or not.</p>
+                        <p class="text">
+                                hasOwnProperty<br>
 
-        It’s a function that can be accessed through an object because of prototypes. It takes string key name ( or
-        symbol) as an argument.
-        <pre class="text">
+                                It’s a function that can be accessed through an object because of prototypes. It takes
+                                string key name ( or
+                                symbol) as an argument.
+                        <pre class="text">
 obj.hasOwnProperty('firstName');        // => true
 obj.hasOwnProperty('middleName');       // => false
 obj.hasOwnProperty('isPrototypeOf');    // => false</pre>
-      </p>
-      <p class="text">
-        This gives more predictable results. However, it’s not without its own set of gotchas.</p>
-    </p>
-    </p>
+                        </p>
+                        <p class="text">
+                                This gives more predictable results. However, it’s not without its own set of gotchas.
+                        </p>
+                        </p>
+                        </p>
 
-    <span class="sub-head">Updation</span>
-    <p class="text">
-      Updating is simple. It’s just like addition. You can use dot-notation or bracket-notation. Here’s an example —
-      <pre class="text">
+                        <span class="sub-head">Updation</span>
+                        <p class="text">
+                                Updating is simple. It’s just like addition. You can use dot-notation or
+                                bracket-notation. Here’s an example —
+                        <pre class="text">
 obj.firstName = 'Timothy'
 obj['firstName'] = 'Timothy'</pre>
-      <p class="text">
-        It has the side effect of creating a new property firstName and setting the value Timothy if the property did
-        not
-        exist. If you don’t want that, you should pair your code with existence checks.<br>
+                        <p class="text">
+                                It has the side effect of creating a new property firstName and setting the value
+                                Timothy if the property did
+                                not
+                                exist. If you don’t want that, you should pair your code with existence checks.<br>
 
-        Also, updating a property always affects the object on which it is performed. It does not modify any object in
-        the
-        prototype chain.
-        Deletion.<br>
+                                Also, updating a property always affects the object on which it is performed. It does
+                                not modify any object in
+                                the
+                                prototype chain.
+                                Deletion.<br>
 
-        Deletion is performed using thedelete operator. Again, we can use both the notations.</p>
-      <pre class="text">
+                                Deletion is performed using thedelete operator. Again, we can use both the notations.
+                        </p>
+                        <pre class="text">
 delete obj.firstName;      // => true
 delete obj['firstName'];   // => true</pre>
-      <p class="text">
-        The return value of delete operator is true if the property was successfully deleted. Else, it will be false. We
-        can make properties un-deletable. So, it is important to check the output of delete.
+                        <p class="text">
+                                The return value of delete operator is true if the property was successfully deleted.
+                                Else, it will be false. We
+                                can make properties un-deletable. So, it is important to check the output of delete.
 
-        Also, merely setting a property’s value to undefined won’t delete the said property.</p>
-    </p>
-    <span class="sub-head">
-      Iteration (Enumeration)</span>
-    <p class="text">An object is a collection of key-value pairs. Often times you want to process the set of all values
-      or keys and create another object with transformed values or key names. Unlike arrays, you can’t simply iterate an
-      object. Here are a few ways to iterate objects —<br>
-      <pre class="text">
+                                Also, merely setting a property’s value to undefined won’t delete the said property.</p>
+                        </p>
+                        <span class="sub-head">
+                                Iteration (Enumeration)</span>
+                        <p class="text">An object is a collection of key-value pairs. Often times you want to process
+                                the set of all values
+                                or keys and create another object with transformed values or key names. Unlike arrays,
+                                you can’t simply iterate an
+                                object. Here are a few ways to iterate objects —<br>
+                        <pre class="text">
 for-in loops<br>
-for-in loop is just like a normal for loop except that it iterates on an object. You get the properties one by one. 
+for-in loop is just like a normal for loop except that 
+it iterates on an object. You get the properties one by one.
 Here’s an example using obj object —
 
 for (const property in obj) {
@@ -338,35 +403,37 @@ for (const property in obj) {
 }// firstName Alex
 // lastName Martin
 // dateOfBirth 18th October
-// friends [ 'Bob', 'Christine' ]
-</pre>
-      <pre class="text">
+// friends [ 'Bob', 'Christine' ]</pre>
+                        <p class="text">
 Note —
-
     The order of appearance of properties is not fixed in an object.
     for-in loop will return all string properties. It won’t give Symbol properties.
-    The prototype chain is consulted, and all enumerable properties of parents are also returned. 
-    (In short, enumerable properties are those properties which are visible to looping constructs.)</pre>
-      <p class="text">
-        Because the prototype chain is consulted, we may get unwanted properties in a for-in loop. We can put an
-        existence
-        check using hasOwnProperty to only get own properties, but we have better ways to do the same thing now.</p><br>
-      <p class="text">
-        Object.keys()
+    The prototype chain is consulted, and all enumerable properties of parents are
+    also returned. (In short, enumerable properties are those properties which are visible to looping constructs.)</p>
+                        <p class="text">
+                                Because the prototype chain is consulted, we may get unwanted properties in a for-in
+                                loop. We can put an
+                                existence
+                                check using hasOwnProperty to only get own properties, but we have better ways to do the
+                                same thing now.</p><br>
+                        <p class="text">
+                                Object.keys()<br>
 
-        Object.keys() is similar to for-in loop except that it only returns the object’s own keys in an array. That is,
-        the prototype chain is not consulted. We can then iterate on this array using a for-of or a for loop. Here’s an
-        example —</p>
-      <pre class="text">
-const allProperties = Object.keys(obj); // => [ 'firstName', 'lastName', 'dateOfBirth', 'friends' ]
+                                Object.keys() is similar to for-in loop except that it only returns the object’s own
+                                keys in an array. That is,
+                                the prototype chain is not consulted. We can then iterate on this array using a for-of
+                                or a for loop. Here’s an
+                                example —</p>
+                        <pre class="text">
+const allProperties = Object.keys(obj); 
+// => [ 'firstName', 'lastName', 'dateOfBirth', 'friends' ]
 for (const property of allProperties) {
   const value = obj[property];
   console.log(property, value);
 }
 </pre>
-      <pre class="text">
-Attentive readers will see that we have to manually read the value inside the loop using const value = obj[property];.
-What if we only want the values?
+                        <p class="text">
+Attentive readers will see that we have to manually read the value inside the loop using const value = obj[property];. What if we only want the values?
 
 Object.values()
 Object.values() has similar restrictions as Object.keys(), but it returns an array of values instead of the keys.
@@ -377,36 +444,39 @@ What if we want both values and properties at the same time?
 
 Object.entries()
 Same as .keys() and .values() except that we get an array of [key, value] pairs.
-
-const allEntries = Object.entries(obj);// => Output[ [ 'firstName', 'Alex' ],
+<pre class="text">
+const allEntries = Object.entries(obj);
+// => Output[ [ 'firstName', 'Alex' ],
   [ 'lastName', 'Martin' ],
   [ 'dateOfBirth', '18th October' ],
   [ 'friends', [ 'Bob', 'Christine' ] ] ]
-
-You can use array “destructuring” and for-of loop to iterate entries very cleanly.
-
+</pre><p class="text">
+You can use array “destructuring” and for-of loop to iterate entries very cleanly.</p>
+<pre class="text">
 for (const [key, value] of Object.entries(obj)) {
   console.log(key, value);
 }
-
-One restriction the above methods pose is that they only return string properties and not symbols in an object.
-What if we want both?
+</pre>
+One restriction the above methods pose is that they only return string properties and not symbols in an object. What if we want both?
 
 Reflect.ownKeys()
-ownKeys return both string-based and symbol properties. Note that we are using Reflect module, and not Object module.</pre>
-    </p>
+ownKeys return both string-based and symbol properties. Note that we are using Reflect module, and not Object module.</p>
+                        </p>
 
-    <span class="sub-head">Comparison</span>
-    <p class="text">
-      <p class="text">
+                        <span class="sub-head">Comparison</span>
+                        <p class="text">
+                        <p class="text">
 
-        There are no good in-built of ways of comparing two objects. When you use the == or === operators, they only
-        compare the references of the objects. References can be understood as “memory addresses” of the objects. Only
-        primitives types are compared by values.<br>
+                                There are no good in-built of ways of comparing two objects. When you use the == or ===
+                                operators, they only
+                                compare the references of the objects. References can be understood as “memory
+                                addresses” of the objects. Only
+                                primitives types are compared by values.<br>
 
-        Now, two objects can have the same key-values pairs but they can’t occupy the same location in memory or
-        reference. The object is only equal to itself as the example shows us —</p>
-      <pre class="text">
+                                Now, two objects can have the same key-values pairs but they can’t occupy the same
+                                location in memory or
+                                reference. The object is only equal to itself as the example shows us —</p>
+                        <pre class="text">
 const obj1 = {
   name: 'Alex',
 }const obj2 = {
@@ -415,29 +485,33 @@ const obj1 = {
 obj1 === obj1    // => true
 
 See exercises below for a solution to this.</pre>
-    </p>
+                        </p>
 
-    <span class="sub-head">Copying</span>
-    <p class="text">
-      <p class="text">
-        This is another hard aspect of objects. When we use the = operator on an object, we merely copy its reference.
-        Let’s see this by an example —</p>
-      <pre class="text">
+                        <span class="sub-head">Copying</span>
+                        <p class="text">
+                        <p class="text">
+                                This is another hard aspect of objects. When we use the = operator on an object, we
+                                merely copy its reference.
+                                Let’s see this by an example —</p>
+                        <pre class="text">
 const obj1 = {
   name: 'Alex',
 }const obj2 = obj1;</pre>
-      <p class="text">
-        We create an object obj1. When we do obj2 = obj1, obj2 does not get another new object with its own key-value
-        pairs. Rather, it starts pointing to the object pointed by obj1. This is the core difference between shallow
-        copy
-        and a deep copy. In deep copy, you would get another object with its own set of key-value pairs (having the same
-        value as original ones).</p>
-      <p class="text">
-        There are multiple ways to do a deep copy —<br>
+                        <p class="text">
+                                We create an object obj1. When we do obj2 = obj1, obj2 does not get another new object
+                                with its own key-value
+                                pairs. Rather, it starts pointing to the object pointed by obj1. This is the core
+                                difference between shallow
+                                copy
+                                and a deep copy. In deep copy, you would get another object with its own set of
+                                key-value pairs (having the same
+                                value as original ones).</p>
+                        <p class="text">
+                                There are multiple ways to do a deep copy —<br>
 
-        Object Spread Operator<br>
-        We can use ... operator to a top-level deep copy. Here’s an example —</p>
-      <pre class="text">
+                                Object Spread Operator<br>
+                                We can use ... operator to a top-level deep copy. Here’s an example —</p>
+                        <pre class="text">
 const obj1 = {
   name: 'Alex',
   nestedObj: {
@@ -446,77 +520,96 @@ const obj1 = {
 }const obj2 = {
   ...obj1      // Spreading the properties of obj1
 }</pre>
-      <p class="text">
-        However, this is only effective for the top-level primitive properties. In this case, obj2 gets its own name
-        property. However, nestedObj is still copied shallowly.
-        Also, if the value of a property is a function then we can’t create a copy of function reliably in JavaScript.
-        Hence, the functions/methods have to be shared.
+                        <p class="text">
+                                However, this is only effective for the top-level primitive properties. In this case,
+                                obj2 gets its own name
+                                property. However, nestedObj is still copied shallowly.
+                                Also, if the value of a property is a function then we can’t create a copy of function
+                                reliably in JavaScript.
+                                Hence, the functions/methods have to be shared.
 
-        JSON.stringify<br>
-        We take a JSON representation of an object and parse it again to create another object with the same key-value
-        pairs. This has the nice property that nested objects are also deeply copied.</p>
+                                JSON.stringify<br>
+                                We take a JSON representation of an object and parse it again to create another object
+                                with the same key-value
+                                pairs. This has the nice property that nested objects are also deeply copied.</p>
 
-      <pre class="text">
+                        <pre class="text">
 const obj2 = JSON.parse(JSON.stringify(obj));</pre>
-      <p class="text">
-        One drawback is that keys whose values are undefined, or functions or a Symbol are skipped. It has many more
-        rules
-        that you can read here.<br>
+                        <p class="text">
+                                One drawback is that keys whose values are undefined, or functions or a Symbol are
+                                skipped. It has many more
+                                rules
+                                that you can read here.<br>
 
-        Object.assign<br>
-        The assign function takes a source and a target object. It copies all the enumerable, own key-value pairs in the
-        target from the source.</p>
-      <pre class="text">
+                                Object.assign<br>
+                                The assign function takes a source and a target object. It copies all the enumerable,
+                                own key-value pairs in the
+                                target from the source.</p>
+                        <pre class="text">
 const obj2 = Object.assign({}, obj1);</pre>
-      <p class="text">
-        In this case, the source is obj1 and the target is an empty object { } .
-        Just like object spread operator, assign does not copy deeply on all levels and both String and Symbol
-        properties
-        are copied.</p>
-    </p>
+                        <p class="text">
+                                In this case, the source is obj1 and the target is an empty object { } .
+                                Just like object spread operator, assign does not copy deeply on all levels and both
+                                String and Symbol
+                                properties
+                                are copied.</p>
+                        </p>
 
 
-    <span class="sub-head">
-      What about arrays?></span>
-    <p class="text">
-      Arrays are objects too. The only difference is that the keys are predetermined to be whole numbers ( +0 ≤ i 2³²–1
-      ). They are 0, 1, 2 … etc. by default. Also, while creating an array, the keys are automatically set. If we check
-      using typeof [], we will get object.
-      <pre class="text">
-const arr = ['Alex', 'Earth'];typeof arr;       // => objectObject.entries(arr);  
-// [ [ '0', 'Alex' ], [ '1', 'Earth' ] ]</pre>
-      <p class="text">
-        Arrays have length property denoting the number of items in the array that is managed by JavaScript. From the
-        example, we can see that Object.entries return the key-value pairs of the arr object.
-      </p>
-    </p>
+                        <span class="sub-head">
+                                What about arrays?></span>
+                        <p class="text">
+                                Arrays are objects too. The only difference is that the keys are predetermined to be
+                                whole numbers ( +0 ≤ i 2³²–1
+                                ). They are 0, 1, 2 … etc. by default. Also, while creating an array, the keys are
+                                automatically set. If we check
+                                using typeof [], we will get object.
+                        <pre class="text">
+const arr = ['Alex', 'Earth'];
+typeof arr; // => objectObject.entries(arr);  
+// [ [ '0', 'Alex' ], [ '1', 'Earth' ] ]
+</pre>
+                        <p class="text">
+                                Arrays have length property denoting the number of items in the array that is managed by
+                                JavaScript. From the
+                                example, we can see that Object.entries return the key-value pairs of the arr object.
+                        </p>
+                        </p>
 
-    <span class="sub-head">
+                        <span class="sub-head">
 
-      And functions?</span>
-    <p class="text">
-      They are objects too. Specifically, they are objects with internal (not accessible to us) [[Call]] method. Let’s
-      see —
-      <pre class="text">
+                                And functions?</span>
+                        <p class="text">
+                                They are objects too. Specifically, they are objects with internal (not accessible to
+                                us) [[Call]] method. Let’s
+                                see —
+                        <pre class="text">
 function func1() {
   return 'Alex';
-}typeof func1;    // => 'function'func1.name;  // => 'func1'func1.address = 'Earth'; // Setting our own 
-propertyfunc1.address;  // => 'Earth' 
-func1['address'];   // => 'Earth'</pre>
-      <p class="text">
-        We declare func1 as a function. If we do typeof func1, we get function instead of object. However, that is
-        because
-        the ECMA Specification says so.
-        <br>
-        All functions have certain properties on them by default. name is one of them which stores the name of the
-        function. In this case, name gives us func1 which was the original name of the declared function.
-        <br>
-        We can also add our own properties. In the example, address was added to func1 and later read like a normal
-        property.
-      </p>
-    </p>
-  </div>
-  </div>
+}typeof func1;    // => 'function'func1.name;  
+// => 'func1'func1.address = 'Earth'; 
+// Setting our own propertyfunc1.address;  
+// => 'Earth' 
+func1['address'];   // => 'Earth'
+</pre>
+                        <p class="text">
+                                We declare func1 as a function. If we do typeof func1, we get function instead of
+                                object. However, that is
+                                because
+                                the ECMA Specification says so.
+                                <br>
+                                All functions have certain properties on them by default. name is one of them which
+                                stores the name of the
+                                function. In this case, name gives us func1 which was the original name of the declared
+                                function.
+                                <br>
+                                We can also add our own properties. In the example, address was added to func1 and later
+                                read like a normal
+                                property.
+                        </p>
+                        </p>
+                </div>
+        </div>
 
 </body>
 

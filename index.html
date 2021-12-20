@@ -329,7 +329,8 @@ delete obj['firstName'];   // => true</pre>
       object. Here are a few ways to iterate objects —<br>
       <pre class="text">
 for-in loops<br>
-for-in loop is just like a normal for loop except that it iterates on an object. You get the properties one by one. Here’s an example using obj object —
+for-in loop is just like a normal for loop except that it iterates on an object. You get the properties one by one. 
+Here’s an example using obj object —
 
 for (const property in obj) {
   const value = obj[property]; // Read the value 
@@ -337,13 +338,15 @@ for (const property in obj) {
 }// firstName Alex
 // lastName Martin
 // dateOfBirth 18th October
-// friends [ 'Bob', 'Christine' ]</pre>
+// friends [ 'Bob', 'Christine' ]
+</pre>
       <pre class="text">
 Note —
 
     The order of appearance of properties is not fixed in an object.
     for-in loop will return all string properties. It won’t give Symbol properties.
-    The prototype chain is consulted, and all enumerable properties of parents are also returned. (In short, enumerable properties are those properties which are visible to looping constructs.)</pre>
+    The prototype chain is consulted, and all enumerable properties of parents are also returned. 
+    (In short, enumerable properties are those properties which are visible to looping constructs.)</pre>
       <p class="text">
         Because the prototype chain is consulted, we may get unwanted properties in a for-in loop. We can put an
         existence
@@ -362,7 +365,8 @@ for (const property of allProperties) {
 }
 </pre>
       <pre class="text">
-Attentive readers will see that we have to manually read the value inside the loop using const value = obj[property];. What if we only want the values?
+Attentive readers will see that we have to manually read the value inside the loop using const value = obj[property];.
+What if we only want the values?
 
 Object.values()
 Object.values() has similar restrictions as Object.keys(), but it returns an array of values instead of the keys.
@@ -385,7 +389,8 @@ for (const [key, value] of Object.entries(obj)) {
   console.log(key, value);
 }
 
-One restriction the above methods pose is that they only return string properties and not symbols in an object. What if we want both?
+One restriction the above methods pose is that they only return string properties and not symbols in an object.
+What if we want both?
 
 Reflect.ownKeys()
 ownKeys return both string-based and symbol properties. Note that we are using Reflect module, and not Object module.</pre>
@@ -495,7 +500,8 @@ const arr = ['Alex', 'Earth'];typeof arr;       // => objectObject.entries(arr);
       <pre class="text">
 function func1() {
   return 'Alex';
-}typeof func1;    // => 'function'func1.name;  // => 'func1'func1.address = 'Earth'; // Setting our own propertyfunc1.address;  // => 'Earth' 
+}typeof func1;    // => 'function'func1.name;  // => 'func1'func1.address = 'Earth'; // Setting our own 
+propertyfunc1.address;  // => 'Earth' 
 func1['address'];   // => 'Earth'</pre>
       <p class="text">
         We declare func1 as a function. If we do typeof func1, we get function instead of object. However, that is

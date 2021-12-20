@@ -1,0 +1,44 @@
+* {
+  margin: 2%;
+  font-family: JetBrains Mono, Fira Code Pro;
+  background-color: blanchedalmond;
+  padding: 0px;
+}
+.main {
+  align-content: center;
+}
+.header {
+  width: 100%;
+  text-decoration: ;
+  font-size: 30px;
+}
+.sub-head {
+  padding: 5px;
+  font-weight: bold;
+}
+.main-block {
+  padding-top: 2%;
+}
+.diff-head {
+  font-weight: bold;
+  padding: 5px;
+}
+.text {
+  margin-right: 3%;
+  margin-left: 3%;
+  text-align: justify;
+}
+.centre {
+  text-align: center;
+  font-size: large;
+}
+.underline {
+  text-decoration: underline;
+}
+.bold-text {
+  font-size: 25px;
+}
+.points {
+  margin-left: 2%;
+  font-weight: bold;
+}
